@@ -9,7 +9,7 @@ import android.util.Log;
 
 public class CDBootCompleteRcv extends BroadcastReceiver {
 	private String TAG = CDBootCompleteRcv.class.getSimpleName();
-	
+
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		Log.i(TAG, "rcvd boot event, launching service");
